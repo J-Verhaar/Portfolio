@@ -8,6 +8,10 @@ section {
   border-radius: var(--30px);
   color: var(--text);
 }
+section p {
+  margin: 0;
+}
 section h1 {
   margin: 0;
+  margin-bottom: var(--10px);
 }
