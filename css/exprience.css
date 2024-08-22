@@ -1,0 +1,77 @@
+#experience-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--20px);
+}
+#experience-grid div {
+  align-items: center;
+}
+
+#experience-grid svg {
+  height: var(--50px);
+  width: var(--50px);
+  margin-right: var(--10px);
+}
+
+#html {
+  display: flex;
+  align-items: center;
+}
+#progress-html {
+  background-color: var(--progress);
+  border-radius: var(--10px);
+  height: var(--20px);
+  width: var(--250px);
+  transition: all var(--transitionTimeTwo);
+}
+#progress-html div {
+  background-color: var(--primary);
+  border-radius: var(--10px);
+  height: var(--20px);
+  width: 25%;
+  margin-top: -0.1px;
+  margin-left: -0.1px;
+  padding: 0.1px;
+}
+
+#css {
+  display: flex;
+  align-items: center;
+}
+#progress-css {
+  background-color: var(--progress);
+  border-radius: var(--10px);
+  height: var(--20px);
+  width: var(--250px);
+  transition: all var(--transitionTimeTwo);
+}
+#progress-css div {
+  background-color: var(--primary);
+  border-radius: var(--10px);
+  height: var(--20px);
+  width: 25%;
+  margin-top: -0.1px;
+  margin-left: -0.1px;
+  padding: 0.1px;
+}
+
+#js {
+  display: flex;
+  align-items: center;
+}
+#progress-js {
+  background-color: var(--progress);
+  border-radius: var(--10px);
+  height: var(--20px);
+  width: var(--250px);
+  transition: all var(--transitionTimeTwo);
+}
+#progress-js div {
+  background-color: var(--primary);
+  border-radius: var(--10px);
+  height: var(--20px);
+  width: 25%;
+  margin-top: -0.1px;
+  margin-left: -0.1px;
+  padding: 0.1px;
+}
