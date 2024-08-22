@@ -1,0 +1,65 @@
+#nav-bar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--primaryDark);
+  height: var(--50px);
+  border-bottom: solid var(--primaryAccent) var(--4px);
+}
+
+#nav-bar-title {
+  font-size: var(--36px);
+  margin: var(--4px) var(--10px);
+  color: var(--white);
+}
+
+#nav-bar-right-section {
+  display: flex;
+}
+
+#nav-bar-links {
+  display: flex;
+  gap: var(--10px);
+  font-size: var(--headerTwoTextSize);
+  font-family: var(--headerFont);
+  font-weight: 400;
+  margin: 0 var(--10px);
+  text-align: center;
+  align-items: center;
+}
+#nav-bar-links a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+#theme-switch-el {
+  height: var(--48px);
+  width: var(--48px);
+  margin: var(--1px);
+  padding: 0;
+  border-radius: 50%;
+  background-color: var(--primaryAccent);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+#theme-switch-el svg {
+  fill: var();
+}
+#theme-switch-el svg:last-child {
+  display: none;
+}
+.lightmode #theme-switch-el svg:first-child {
+  display: none;
+}
+.lightmode #theme-switch-el svg:last-child {
+  display: block;
+}
+#darkmode-icon {
+  fill: var(--white);
+}

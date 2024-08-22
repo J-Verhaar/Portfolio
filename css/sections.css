@@ -1,0 +1,17 @@
+section {
+  background-color: var(--backgroundTransparent);
+  min-width: 78.13%;
+  max-width: 95%;
+  padding: var(--10px) var(--20px);
+  margin: auto;
+  margin-bottom: var(--30px);
+  border-radius: var(--30px);
+  color: var(--text);
+}
+section p {
+  margin: 0;
+}
+section h1 {
+  margin: 0;
+  margin-bottom: var(--10px);
+}

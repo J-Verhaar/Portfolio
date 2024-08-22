@@ -1,0 +1,26 @@
+body {
+  margin-top: var(--84px);
+  background-color: var(--background);
+  transition: all var(--transitionTime);
+}
+
+h1,
+h2 {
+  font-family: var(--headerFont);
+  letter-spacing: -0.03rem;
+  font-weight: 400;
+  color: var(--text);
+}
+h1 {
+  font-size: var(--headerTextSize);
+}
+h2 {
+  font-size: var(--headerTwoTextSize);
+}
+
+p {
+  color: var(--text);
+  font-family: var(--textFont);
+  font-weight: 400;
+  font-size: var(--textSize);
+}
